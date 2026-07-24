@@ -4,3 +4,4 @@ numpy
 Pillow
 joblib
 huggingface_hub
+dill
