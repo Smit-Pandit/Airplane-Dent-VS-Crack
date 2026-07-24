@@ -40,7 +40,7 @@ The application allows users to upload an aircraft image and instantly receive t
 ---
 # Screenshots
 
-![WEB Page](assets/webpage.png)
+![WEB Page](assets/Webpage.png)
 
 ---
 
