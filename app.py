@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 from tensorflow.keras.applications.vgg16 import preprocess_input
-import joblib
+from tensorflow.keras.models import load_model
 from huggingface_hub import hf_hub_download
 
 
@@ -22,9 +22,9 @@ st.set_page_config(
 def load_model():
     model_path = hf_hub_download(
         repo_id="Smit-Pandit/DentCrackModel",
-        filename="DentCrackModel.pkl"
+        filename="DentCrackModel.keras"
     )
-    return joblib.load(model_path)
+    return load_model(model_path)
 
 model = load_model()
 
