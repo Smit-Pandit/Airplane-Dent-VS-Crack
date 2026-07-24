@@ -19,14 +19,14 @@ st.set_page_config(
 )
 
 @st.cache_resource
-def load_model():
+def get_model():
     model_path = hf_hub_download(
         repo_id="Smit-Pandit/DentCrackModel",
         filename="DentCrackModel.keras"
     )
     return load_model(model_path)
 
-model = load_model()
+model = get_model()
 
 
 st.title("✈️ Airplane Dent vs Crack Detection")
