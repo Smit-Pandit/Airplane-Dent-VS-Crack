@@ -38,7 +38,7 @@ The application allows users to upload an aircraft image and instantly receive t
 - ✅ Responsive web interface
 
 ---
-# Screenshots
+# Screenshot
 
 ![WEB Page](assets/Webpage.png)
 
@@ -137,6 +137,12 @@ streamlit run app.py
 | Classification | Binary |
 | Test Accuracy | **84%** |
 
+## 📊 Confusion Matrix
+![Confusion Matrix](assets/Confusion_matrix.png)
+
+## 📈 Classification Report
+
+![Classification Report](assets/classification_report.png)
 ---
 
 # Example Predictions
